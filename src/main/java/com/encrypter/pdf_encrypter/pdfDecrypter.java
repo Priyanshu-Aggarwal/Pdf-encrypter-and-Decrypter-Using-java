@@ -9,7 +9,7 @@ public class pdfDecrypter {
     public static void main(String[] args) throws IOException {
         try {
             File f = new File("pdf path!!");
-            PDDocument pd = PDDocument.load(f, "abcd");
+            PDDocument pd = PDDocument.load(f, "Pdf Password!!");
 
             //It is used to find whether pdf is protected or not.
             //        Boolean ans=pd.isEncrypted();
